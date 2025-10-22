@@ -11,4 +11,4 @@ These are the main components of the design:
 8. ALU. Performs addition and subtraction, as well as logical operations such as AND, OR, NOT, and XOR. Also has a pass-through option.
 9. Program Counter register. This keeps track of which instruction should go next. It has a three input mux placed before the register's input. The three inputs are the current value, the current value + 1, and the address from the MDA register. There is one output.
 
-The memfile contains instructions that are used to test the processor. They were given to us  Although I do not remember what those instructions were, I do know that the processor was able to complete all instructions correctly.
+The memfile contains instructions that are used to test the processor. Although I do not remember what exactly those instructions were, I do know that the processor was able to complete all instructions correctly.
